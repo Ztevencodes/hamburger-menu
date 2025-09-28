@@ -7,3 +7,49 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.navbar {
+    background: lightgray;
+    padding: 1rem 2rem;
+    height: 80px
+}
+
+.navbar .logo {
+    width: 50px;
+}
+
+.navbar-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .main-menu-list {
+    display: flex;
+    gap: 1.5rem;
+    alighn-items: center;
+}
+
+.navbar a:hover {
+    color: purple;
+}
+
