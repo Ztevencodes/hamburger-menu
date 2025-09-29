@@ -53,3 +53,8 @@ img {
     color: purple;
 }
 
+@media (max-width: 768px) {
+    .navbar .main-menu {
+        display: none;
+    }
+}
